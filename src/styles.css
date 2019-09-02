@@ -2,6 +2,7 @@
 body {
   background: #f5e2c0;
   overflow: hidden;
+  margin: 0; padding: 0;
 }
 
 .AncientScroll, .AncientScroll * {
@@ -11,23 +12,22 @@ body {
 .AncientScroll {
   position: relative;
   display: block;
-  width: 791px;
-  height: 1063px;
+  /* width: 791px;
+  height: 1063px; */
   width: 74.4120413923vh;
   height: 100vh;
   -webkit-mask-image: url(https://i.imgur.com/4AUs6ML.png);
   mask-image: url(https://i.imgur.com/4AUs6ML.png);
-  -webkit-mask-size: 791px 1063px;
-  mask-size: 791px 1063px;
+  /* -webkit-mask-size: 791px 1063px;
+  mask-size: 791px 1063px; */
+  -webkit-mask-size: 74.4120413923vh 100vh;
+  mask-size: 74.4120413923vh 100vh;
   box-sizing: border-box;
   z-index: 2;
 }
 
 .AncientScroll .skew {
-  padding: 4rem 12rem 15rem 9rem;
-
-  width: 791px;
-  height: 1063px;
+  padding: 3rem 9rem 10rem 7rem;
   width: 74.4120413923vh;
   height: 100vh;
   transform: skew(-.056rad);
@@ -40,9 +40,10 @@ body {
   display: block;
   content: '';
   position: absolute;
-  width: 791px;
-  height: 1063px;
+  width: 74.4120413923vh;
+  height: 100vh;
   background: url(https://i.imgur.com/CqkYoPm.png);
+  background-size: contain;
   z-index: 1; 
   top: 0; left: 0;
   opacity: 1;
